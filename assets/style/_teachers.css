@@ -1,0 +1,114 @@
+.meet-teacher{
+  margin-top: 10rem;
+}
+
+.meet-teacher .title{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.meet-teacher .title h2{
+  font-size: 2rem;
+  color: var(--text-title);
+}
+
+.meet-teacher .title p{
+  width: 30%;
+}
+
+.meet-teacher .teachers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meet-teacher .teachers .teacher {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.teachers .teacher a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.teachers .teacher .info p:nth-child(1){
+  color: var(--text-title);
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: .75rem 0;
+}
+
+.teachers .teacher .info p:nth-child(2){
+  font-size: .75rem;
+  color: var(--text-color-light);
+  text-align: center;
+}
+
+.all {
+    text-align: center;
+    margin-top: 3rem;
+}
+ 
+.all a{
+  color: var(--text-title);
+  font-weight: bold;
+  padding: 6px 15px;
+  box-shadow: 0 0 2px 0px rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.meet-teacher .commemt {
+  position: relative;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.meet-teacher .commemt .title p:nth-child(2){
+  color: var(--orange);
+  margin: .5rem 0  0 0;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.meet-teacher .commemt .title p:nth-child(3){
+  margin-top: 0;
+  color: var(--text-title);
+}
+
+.meet-teacher .commemt .users{
+  display: flex;
+}
+
+.commemt .users .user:nth-child(3) p{
+  text-align: center;
+  color: var(--text-title);
+  font-weight: bold;
+}
+
+.commemt .users .user:nth-child(3) p:nth-child(3){
+  color: var(--text-color-light);
+  font-size: .75rem;
+}
+
+.commemt .control a:nth-child(1){
+  position: absolute;
+  top: 50%;
+  right: 0;
+  color: var(--text-color-light);
+}
+
+.commemt .control a:nth-child(2){
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: var(--text-color-light);
+}

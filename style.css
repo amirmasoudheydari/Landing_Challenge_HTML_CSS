@@ -1,0 +1,627 @@
+@import url(./assets/style/_header.css);
+@import url(./assets/style/_content_home.css);
+@import url(./assets/style/_Interaction..css);
+@import url(./assets/style/_post.css);
+@import url(./assets/style/_featured-courses.css);
+@import url(./assets/style/_catagory.css);
+@import url(./assets/style/_teachers.css);
+@import url(./assets/style/_email.css);
+@import url(./assets/style/_footer.css);
+
+
+:root {
+  --text-title: #212B36;
+  --text-color: #637381;
+  --text-color-light: #919EAB;
+  --orange: #FA541C;
+  --secondary: #22B8CF;
+  --gold: #FFC81A;
+  --font-sans: Vazir;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  font-size: 1rem;
+  color: var(--text-color);
+  background-color: #fff;
+}
+
+
+.container {
+  max-width: 1152px;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #212529;
+  text-decoration: none;
+}
+
+.t-orange {
+  color: var(--orange) !important;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('./assets/fonts/Vazir-Regular.eot') format('eot'),
+    url('./assets/fonts/Vazir-Regular.woff2') format('woff2'),
+    url('./assets/fonts/Vazir-Regular.woff') format('woff'),
+    url('./assets/fonts/Vazir-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (max-width:576px) {
+  body{
+    font-size: .9rem;
+  }
+  .container {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  .d-m-non {
+    display: none !important;
+  }
+
+  .w-100 {
+    width: 100%;
+  }
+
+  .m-0 {
+    margin: 0px;
+  }
+  
+  .t-center{
+    text-align: center;
+    margin-top: 2rem;
+
+  }
+
+  .j-center{
+    justify-content: center;
+  }
+
+  .home-content .text h1 {
+    font-size: 1.3rem;
+  }
+
+  .home-content .text p{
+    width: 60%;
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .nav li {
+    margin: 0px 14px;
+  }
+
+  .email .content .img img {
+    width: 100%;
+  }
+
+  .home .home-content {
+    width: 100%;
+  }
+
+  .home .home-content .button a:nth-child(1) {
+    width: 117px;
+    height: 36px;
+  }
+
+  .course .course-content .price p:nth-child(2) {
+    font-size: 1.1rem;
+}
+
+  .home .home-content .button a:nth-child(2) span {
+    width: 40px;
+    height: 36px;
+  }
+
+  .home-content .info div h3 {
+    font-size: 1.2rem;
+  }
+
+  .home-content .info {
+    margin-top: 2rem;
+    justify-content: center;
+  }
+
+  .Interaction .Interaction-title h2 {
+    font-size: 1.5rem;
+  }
+
+  .Interaction .Interaction-title {
+    text-align: center;
+  }
+
+  .Interaction .Interaction-title p {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .Interaction .Interaction-content {
+    margin: 0;
+  }
+
+  .Interaction .Interaction-content img {
+    width: 90%;
+  }
+
+  .Interaction .Interaction-content ul {
+    width: 90%;
+  }
+
+  .post {
+    margin-top: 6rem;
+}
+
+  .post .post-imgage {
+    position: relative;
+  }
+
+  .post .post-imgage p {
+    top: -54px;
+    left: 57px;
+  }
+
+  .featured-courses .control p {
+    width: 60%;
+    display: contents;
+}
+
+.nav li a.pages i{
+  position: absolute;
+  top: 7px;
+  right: 58px;
+}
+
+.featured-courses .courses .course {
+  width: 100%
+}
+
+.categoury .title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.categoury .title h2 {
+  font-size: 1.5rem;
+}
+
+.categoury .title a {
+  width: 104px;
+  height: 37px;
+}
+
+.categoury {
+  margin-top: 2rem;
+}
+
+.categoury .categories {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.categoury .categories div {
+  width: 30%;
+}
+
+.meet-teacher .title h2 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.meet-teacher {
+  margin-top: 6rem;
+}
+
+.meet-teacher .teachers .teacher {
+  width: 50%;
+}
+
+.meet-teacher .title p {
+  width: 90%;
+}
+
+.teachers .teacher .info p:nth-child(1) {
+  font-size: 1rem;
+}
+
+.all {
+  margin-top: 1rem;
+}
+
+.all a{
+  font-size: .8rem;
+}
+
+.meet-teacher .title {
+  margin: 0;
+}
+
+.meet-teacher .commemt .title p:nth-child(2) {
+  font-size: 2rem;
+}
+
+.email .content .info h3 {
+  font-size: 1.3rem;
+}
+
+.email {
+  margin-top: 6rem;
+}
+
+.email .content .info form button {
+  padding: 5px 12px;
+}
+
+.email .content .info p {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.footer .content {
+  justify-content: center;
+}
+
+.footer .content .social {
+  width: 80%;
+  text-align: center;
+}
+
+.footer .content .social ul {
+    justify-content: center;
+}
+
+.footer .copyright ul li > * {
+  font-size: .8rem;
+}
+
+.meet-teacher .commemt .users .user img{
+  width: 100%;
+}
+
+.footer .content .contact {
+  width: 25%;
+}
+
+.footer .content .email {
+  width: 30%;
+}
+
+.footer .content .social p {
+  width: 90%;
+}
+
+.footer .content .email form button {
+  padding: 2px 10px;
+}
+
+.footer .content .email form input {
+  width: 80%;
+}
+
+.footer {
+  margin-top: 6rem;
+}
+
+.email .content {
+  padding: 15px;
+}
+
+.email .content .info {
+  width: 100%;
+}
+
+.login ul li.join {
+  width: 66px;
+  height: 29px;
+}
+
+.zone h2 {
+  font-size: 1rem;
+}
+
+.nav {
+  padding: 0;
+}
+
+.header .container .navbar {
+  margin: 0;
+}
+
+.header .container .navbar {
+  margin-left: 0;
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.login ul {
+  padding: 0;
+}
+
+.nav li {
+  margin: 0px 8px;
+}
+
+.featured-courses .header h2 {
+  font-size: 1.4rem;
+}
+
+.header {
+  text-align: center;
+}
+
+}
+
+@media (min-width:577px) and (max-width:766px) {
+  body{
+    font-size: .9rem;
+  }
+  .d-t-non{
+    display: none;
+  }
+
+  .login ul {
+    padding: 0px;
+}
+
+
+
+.w-100 {
+  width: 100%;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.t-center{
+  text-align: center;
+}
+
+.j-center{
+  justify-content: center;
+}
+
+.login ul::after {
+  content: '';
+}
+
+}
+
+@media (min-width:577px) and (max-width:1220px) {
+
+  .d-t-non {
+    display: none !important;
+  }
+
+  .w-100 {
+    width: 100%;
+  }
+
+  .m-0 {
+    margin: 0px;
+  }
+
+  .container {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .home-content .text h1 {
+    font-size: 1.8rem;
+  }
+
+  .nav li {
+    margin: 0px 14px;
+  }
+
+  .email .content .img img {
+    width: 100%;
+  }
+
+  .home .home-content {
+    width: 40%;
+  }
+
+  .home .home-content .button a:nth-child(1) {
+    width: 117px;
+    height: 36px;
+  }
+
+  .home .home-content .button a:nth-child(2) span {
+    width: 40px;
+    height: 36px;
+  }
+
+  .home-content .info div h3 {
+    font-size: 1.5rem;
+  }
+
+  .home-content .info {
+    margin-top: 2rem;
+  }
+
+  .Interaction .Interaction-title h2 {
+    font-size: 1.5rem;
+  }
+
+  .Interaction .Interaction-title {
+    text-align: center;
+  }
+
+  .Interaction .Interaction-title p {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .Interaction .Interaction-content {
+    margin: 0;
+  }
+
+  .Interaction .Interaction-content ul {
+    width: 90%;
+  }
+
+  .post {
+    margin-top: 6rem;
+}
+
+  .post .post-imgage {
+    position: relative;
+  }
+
+  .post .post-imgage p {
+    top: -54px;
+    left: 57px;
+  }
+
+  .featured-courses .control p {
+    width: 60%;
+}
+
+.featured-courses .courses .course {
+  width: 40%;
+}
+
+.categoury .title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.categoury .title h2 {
+  font-size: 1.5rem;
+}
+
+.categoury .title a {
+  width: 104px;
+  height: 37px;
+}
+
+.categoury {
+  margin-top: 2rem;
+}
+
+.categoury .categories {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.meet-teacher .title h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.meet-teacher {
+  margin-top: 6rem;
+}
+
+.teachers .teacher .info p:nth-child(1) {
+  font-size: 1rem;
+}
+
+.all {
+  margin-top: 1rem;
+}
+
+.all a{
+  font-size: .8rem;
+}
+
+.meet-teacher .title {
+  margin: 0;
+}
+
+.meet-teacher .commemt .title p:nth-child(2) {
+  font-size: 3rem;
+}
+
+.email {
+  margin-top: 6rem;
+}
+
+.email .content .info form button {
+  padding: 6px 22px;
+}
+
+.email .content .info p {
+  width: 70%;
+}
+
+.email .content .info h3 {
+  width: 75%;
+}
+
+.footer .content .social {
+  width: 45%;
+}
+
+.footer .content .contact {
+  width: 25%;
+}
+
+.footer .content .email {
+  width: 30%;
+}
+
+.footer .content .social p {
+  width: 90%;
+}
+
+.footer .content .email form button {
+  padding: 2px 10px;
+}
+
+.footer .content .email form input {
+  width: 80%;
+}
+
+.footer {
+  margin-top: 6rem;
+}
+
+}
+
+
+
+@media (min-width:880px) and (max-width:1220px) {
+  .featured-courses .courses .course {
+    width: 35%;
+  }
+
+  .categoury .title {
+    width: 30%;
+}
+
+.categoury .categories {
+  width: 70%;
+}
+}

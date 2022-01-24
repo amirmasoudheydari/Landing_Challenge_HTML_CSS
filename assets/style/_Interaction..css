@@ -1,0 +1,24 @@
+.Interaction{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Interaction .Interaction-title h2{
+  text-align: center;
+  color: var(--text-title);
+  font-size: 35px;
+}
+
+.Interaction .Interaction-content{
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.Interaction .Interaction-content ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

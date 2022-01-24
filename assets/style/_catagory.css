@@ -1,0 +1,62 @@
+.categoury{
+  display: flex;
+  margin-top: 10rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.categoury .title{
+  flex: 0 0 auto;
+  width: 30%;
+}
+
+.categoury .title h2{
+  font-size: 2rem;
+  color: var(--text-title);
+}
+
+.categoury .title p{
+  margin: 35px 0;
+}
+
+.categoury .title a{
+  width: 153px;
+  height: 48px;
+  background-color: var(--orange);
+  display: inline-block;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.categoury .categories{
+  display: flex;
+  flex: 0 0 auto;  
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+}
+
+.categoury .categories div{
+  width: 204px;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+  box-shadow: 0 0 2px 0px rgba(0, 0, 0, .3);
+  border-radius: 10px;
+}
+
+.categoury .categories div p{
+  margin: .5rem;
+}
+
+.categoury .categories div p.title{
+  color: var(--text-title);
+  font-weight: bold;
+  width: 100%;
+}

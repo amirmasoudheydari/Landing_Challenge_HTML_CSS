@@ -1,0 +1,46 @@
+.email{
+  margin-top: 8rem;
+}
+
+.email .content{
+  display: flex;
+  background-color: #fa531c15;
+  border-radius: 10px;
+  padding: 80px;
+}
+
+.email .content .info{
+  flex: 0 0 auto;
+  width: 60%;
+}
+
+.email .content .info h3{
+  font-size: 1.5rem;
+  color: var(--text-title);
+}
+
+.email .content .info p{
+  width: 50%;
+  color: var(--text-title);
+}
+
+.email .content .info form input{
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.email .content .info form button{
+  border: none;
+  padding: 8px 40px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: var(--orange);
+}
+
+.email .content .img{
+  flex: 0 0 auto;
+  width: 40%;
+}
